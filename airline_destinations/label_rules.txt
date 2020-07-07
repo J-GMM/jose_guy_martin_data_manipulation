@@ -1,0 +1,7 @@
+label	rule
+Continental USA	CASE WHEN "iso_country" = 'US' AND "weight" IS NULL THEN "municipality" END
+Alaska	CASE WHEN "iso_region" = 'US-AK' THEN "municipality" END
+Hawaii	CASE WHEN "iso_region" = 'US-HI' THEN "municipality" END
+Hubs	CASE WHEN "Weight" = 'Hub' THEN "name" END
+Focus	CASE WHEN "Weight" = 'Focus' THEN "name" END
+Non USA	CASE WHEN "iso_country" != 'US' THEN "municipality" END
