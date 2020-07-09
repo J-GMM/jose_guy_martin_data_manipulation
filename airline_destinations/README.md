@@ -14,10 +14,10 @@ Workbook that combine tables of destinations reached by several airlines into a 
 The resultant table is then fed into QGIS to produce the attached map, showing each airport by how many airlines reach said airport. QGIS Map and shapefiles are saved in the `geodata` folder.
 
 ### Hubs and Focus Cities
-![Destinations USA](airline_destinations_usa_hubs.png)
+![Destinations USA](images/airline_destinations_usa_hubs.png)
 
 ### Number of Airlines Serving Each Airport
-![Destinations by Number of Airlines served](airline_destinations_usa_number.png)
+![Destinations by Number of Airlines served](images/airline_destinations_usa_number.png)
 
 
 ## Gathered Data and Sources
