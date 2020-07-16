@@ -1,4 +1,4 @@
-# Single United States Airline
+# Combined Airline Destinations
 Workbook that combine tables of destinations reached by several airlines into a single table, which is then used to generate a map of destinations.
 
 ## Data Manipulation
